@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Airbnb Clone.css">
+    <title>Airbnb by mykcodes</title>
+</head>
+<body>
+    <div class="header">
+        <div class="top">
+            <div class="airbnb">
+                <a href="https://ibb.co/MyjTLzfQ"><img src="https://i.ibb.co/fVKR739L/CITYPNG-COM-HD-Airbnb-Official-Logo-Brand-PNG-Image-2000x2000.png"></a>
+            </div>
+            <div class="nav">
+                <a href="#" class="cor"><video src="https://a0.muscache.com/videos/search-bar-icons/webm/house-twirl-selected.webm" type="video/webm"></video><span>Homes</span></a>
+                <a href="#" class="cor"><video src="https://a0.muscache.com/videos/search-bar-icons/webm/balloon-selected.webm" type="video/webm"></video><span>Experiences</span></a>
+                <a href="#" class="cor"><video src="https://a0.muscache.com/videos/search-bar-icons/webm/consierge-selected.webm" type="video/webm"></video><span>Services</span></a>
+            </div>
+            <div class="top-right">
+                <button id="b1">Become a Host</button>
+                <button id="b2"><i class="fa fa-globe"></i></button>
+                <button id="b2"><i class="fa fa-bars"></i></button>
+            </div>
+        </div>
+        <div class="search">
+            <div class="field">
+                <label>Where</label> 
+                <input type="text" placeholder="Search destinations">
+            </div>
+            <div class="divider"></div>
+            <div class="field">
+                <label>When</label> 
+                <input type="text" placeholder="Add dates">
+            </div>
+            <div class="divider"></div>
+            <div class="field">
+                <label>Who</label> 
+                <input type="text" placeholder="Add guests">
+            </div>
+            <button id="search"><i class="fa fa-search"></i></button>
+        </div>
+    </div>
+    <div class="main">
+        <button class="nav-btn btn-left" onclick="goLeft1()">
+            <i class="fa fa-chevron-left"></i>
+        </button>
+        <div class="heading">Popular homes in Los Angeles <button style="border: none; border-radius: 50%; width: 30px; height: 30px;"><i class="fa fa-arrow-right"></i></button></div>
+        <div class="houses" id="track1"> 
+                
+            <div class="house1">
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-1322628952240547782/original/e5db0194-aaea-45c3-bb15-402a8127e1de.jpeg?im_w=720">
+                <div class="discription">
+                    <div class="A">
+                        <p>Room in Monterey Island</p>
+                    </div>
+                    <div class="B">
+                        <p>$400 for 5 nights</p>
+                        <i style="transform: scale(.4);" class="fa fa-circle"></i>
+                       <i style="transform: scale(.7);" class="fa  fa-star"></i>
+                        <p>4.96</p>
+                    </div>
+                </div>
+            </div>
+            <div class="house1">
+                <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1480547610076157794/original/d4bead6c-5d43-435b-b552-aaa05740449b.jpeg?im_w=720">
+                <div class="discription">
+                    <div class="A">
+                        <p>Room in Azusa</p>
+                    </div>
+                    <div class="B">
+                        <p>$231 for 5 nights</p>
+                        <i style="transform: scale(.4);" class="fa fa-circle"></i>
+                       <i style="transform: scale(.7);" class="fa  fa-star"></i>
+                        <p>4.72</p>
+                    </div>
+                </div>
+            </div>
+            <div class="house1">
+                <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTMxOTE2NTM%3D/original/2280e582-cd32-4fa2-9721-224c593cb3cd.jpeg?im_w=720">
+                <div class="discription">
+                    <div class="A">
+                        <p>Room in San Gabriel</p>
+                    </div>
+                    <div class="B">
+                        <p>$317 for 5 nights</p>
+                        <i style="transform: scale(.4);" class="fa fa-circle"></i>
+                       <i style="transform: scale(.7);" class="fa  fa-star"></i>
+                        <p>4.01</p>
+                    </div>
+                </div>
+            </div>
+            <div class="house1">
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-10052338/original/e4693f6b-f729-4edb-96d2-321aaf685d23.jpeg?im_w=720">
+                <div class="discription">
+                    <div class="A">
+                        <p>Room in Culver City</p>
+                    </div>
+                    <div class="B">
+                        <p>$298 for 5 nights</p>
+                        <i style="transform: scale(.4);" class="fa fa-circle"></i>
+                       <i style="transform: scale(.7);" class="fa  fa-star"></i>
+                        <p>4.11</p>
+                    </div>
+                </div>
+            </div>
+            <div class="house1">
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-1441537667622397192/original/0c554139-0af9-4b23-b382-6bfb2dc4a2d0.jpeg?im_w=720">
+                <div class="discription">
+                    <div class="A">
+                        <p>Room in Inglewood</p>
+                    </div>
+                    <div class="B">
+                        <p>$377 for 5 nights</p>
+                        <i style="transform: scale(.4);" class="fa fa-circle"></i>
+                       <i style="transform: scale(.7);" class="fa  fa-star"></i>
+                        <p>3.96</p>
+                    </div>
+                </div>
+            </div>
+            <div class="house1">
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-46569587/original/c82d13d8-e0ce-4317-aaf4-719a34f4a9ca.jpeg?im_w=720">
+                <div class="discription">
+                    <div class="A">
+                        <p>Villa in Los Angeles</p>
+                    </div>
+                    <div class="B">
+                        <p>$900 for 5 nights</p>
+                        <i style="transform: scale(.4);" class="fa fa-circle"></i>
+                       <i style="transform: scale(.7);" class="fa  fa-star"></i>
+                        <p>4.33</p>
+                    </div>
+                </div>
+            </div>
+            <div class="house1">
+                <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-774150286785033892/original/3ee5f27c-56d3-4ba7-b050-59976ee3a2b6.jpeg?im_w=720">
+                <div class="discription">
+                    <div class="A">
+                        <p>Villa in Hollywood Hills</p>
+                    </div>
+                    <div class="B">
+                        <p>$923 for 5 nights</p>
+                        <i style="transform: scale(.4);" class="fa fa-circle"></i>
+                       <i style="transform: scale(.7);" class="fa  fa-star"></i>
+                        <p>4.72</p>
+                    </div>
+                </div>
+            </div>
+            <div class="house1">
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-726181657898671165/original/baaac2e2-cfe2-41a0-83d7-fdb3f8ee1c69.jpeg?im_w=720">
+                <div class="discription">
+                    <div class="A">
+                        <p>Room in Rosemead</p>
+                    </div>
+                    <div class="B">
+                        <p>$551 for 5 nights</p>
+                        <i style="transform: scale(.4);" class="fa fa-circle"></i>
+                       <i style="transform: scale(.7);" class="fa  fa-star"></i>
+                        <p>4.81</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <button class="nav-btn btn-right" onclick="goRight1()">
+            <i class="fa fa-chevron-right"></i>
+        </button>
+    </div>
+    <div class="main">
+        <button class="nav-btn btn-left" onclick="goLeft2()">
+            <i class="fa fa-chevron-left"></i>
+        </button>
+        <div class="heading">Popular homes in Gautam Buddha Nagar  <button style="border: none; border-radius: 50%; width: 30px; height: 30px;"><i class="fa fa-arrow-right"></i></button></div>
+        <div class="houses" id="track2"> 
+                
+            <div class="house1">
+                <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1175149041501453918/original/8dc6b9d0-1dfa-4b60-b47d-a664703b8b2c.jpeg?im_w=720">
+                <div class="discription">
+                    <div class="A">
+                        <p>Flat in Greater Noida</p>
+                    </div>
+                    <div class="B">
+                        <p>$66 for 2 nights</p>
+                        <i style="transform: scale(.4);" class="fa fa-circle"></i>
+                       <i style="transform: scale(.7);" class="fa  fa-star"></i>
+                        <p>4.9</p>
+                    </div>
+                </div>
+            </div>
+            <div class="house1">
+                <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1594866845091035862/original/403a6581-aa01-4e17-b11f-954742a30838.jpeg?im_w=720">
+                <div class="discription">
+                    <div class="A">
+                        <p>Home in Noida</p>
+                    </div>
+                    <div class="B">
+                        <p>$98 for 2 nights</p>
+                        <i style="transform: scale(.4);" class="fa fa-circle"></i>
+                       <i style="transform: scale(.7);" class="fa  fa-star"></i>
+                        <p>4.7</p>
+                    </div>
+                </div>
+            </div>
+            <div class="house1">
+                <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1354901133074016997/original/76918e48-d2d3-4f1c-9b3f-1b0e98e1d172.jpeg?im_w=720">
+                <div class="discription">
+                    <div class="A">
+                        <p>Studio at Gaur City 2</p>
+                    </div>
+                    <div class="B">
+                        <p>$49 for 2 nights</p>
+                        <i style="transform: scale(.4);" class="fa fa-circle"></i>
+                       <i style="transform: scale(.7);" class="fa  fa-star"></i>
+                        <p>4.01</p>
+                    </div>
+                </div>
+            </div>
+            <div class="house1">
+                <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1578415837622978554/original/1008d48f-ad2e-4476-87c9-e67eaed9137e.png?im_w=720">
+                <div class="discription">
+                    <div class="A">
+                        <p>Farm stay in Greater Noida</p>
+                    </div>
+                    <div class="B">
+                        <p>$162 for 2 nights</p>
+                        <i style="transform: scale(.4);" class="fa fa-circle"></i>
+                       <i style="transform: scale(.7);" class="fa  fa-star"></i>
+                        <p>5.0</p>
+                    </div>
+                </div>
+            </div>
+            <div class="house1">
+                <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1117210179713518752/original/b0ae0d3b-5dac-4b38-a276-bd09587945b3.jpeg?im_w=720">
+                <div class="discription">
+                    <div class="A">
+                        <p>Home in Noida</p>
+                    </div>
+                    <div class="B">
+                        <p>$116 for 2 nights</p>
+                        <i style="transform: scale(.4);" class="fa fa-circle"></i>
+                       <i style="transform: scale(.7);" class="fa  fa-star"></i>
+                        <p>4.91</p>
+                    </div>
+                </div>
+            </div>
+            <div class="house1">
+                <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1553741314891121362/original/e21a8603-8810-4f55-9153-c8affa2f311e.jpeg?im_w=720">
+                <div class="discription">
+                    <div class="A">
+                        <p>Flat in Ghaziabad</p>
+                    </div>
+                    <div class="B">
+                        <p>$52 for 2 nights</p>
+                        <i style="transform: scale(.4);" class="fa fa-circle"></i>
+                       <i style="transform: scale(.7);" class="fa  fa-star"></i>
+                        <p>4.92</p>
+                    </div>
+                </div>
+            </div>
+            <div class="house1">
+                <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1584891072635948137/original/bd59a263-c9a4-4655-995a-cae8d32ed867.jpeg?im_w=320">
+                <div class="discription">
+                    <div class="A">
+                        <p>Apartment in Greater Noida</p>
+                    </div>
+                    <div class="B">
+                        <p>$40 for 2 nights</p>
+                        <i style="transform: scale(.4);" class="fa fa-circle"></i>
+                       <i style="transform: scale(.7);" class="fa  fa-star"></i>
+                        <p>5.0</p>
+                    </div>
+                </div>
+            </div>
+            <div class="house1">
+                <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1590537946305558238/original/f9fca8b0-df23-4612-b632-59263e00471b.jpeg?im_w=320">
+                <div class="discription">
+                    <div class="A">
+                        <p>Flat in Greater Noida</p>
+                    </div>
+                    <div class="B">
+                        <p>$30 for 5 nights</p>
+                        <i style="transform: scale(.4);" class="fa fa-circle"></i>
+                       <i style="transform: scale(.7);" class="fa  fa-star"></i>
+                        <p>4.88</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <button class="nav-btn btn-right" onclick="goRight2()">
+            <i class="fa fa-chevron-right"></i>
+        </button>
+    </div>
+<script src="Airbnb Clone.js"></script>
+</body>
+</html>
